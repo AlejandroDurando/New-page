@@ -1,6 +1,5 @@
 import Spline from '@splinetool/react-spline';
 import { motion } from 'framer-motion';
-import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
     return (
@@ -20,15 +19,7 @@ export default function Hero() {
                 >
 
 
-                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pointer-events-auto">
-                        <button className="px-8 py-4 rounded-full bg-white text-black font-semibold hover:scale-105 transition-transform flex items-center gap-2">
-                            Start Project
-                            <ArrowRight size={20} />
-                        </button>
-                        <button className="px-8 py-4 rounded-full glass text-white font-medium hover:bg-white/10 transition-colors">
-                            View Showcase
-                        </button>
-                    </div>
+
                 </motion.div>
             </div>
 
