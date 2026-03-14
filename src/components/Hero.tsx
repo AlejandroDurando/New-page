@@ -18,19 +18,7 @@ export default function Hero() {
                     transition={{ duration: 1, delay: 0.2 }}
                     className="max-w-4xl pt-24"
                 >
-                    <div className="inline-block px-4 py-1.5 mb-6 rounded-full glass border border-white/10 text-sm font-medium tracking-wide">
-                        <span className="text-gradient">Introducing the Future</span>
-                    </div>
 
-                    <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-6 tracking-tighter leading-tight text-white drop-shadow-2xl">
-                        Design Beyond
-                        <br className="hidden md:block" /> Dimensions.
-                    </h1>
-
-                    <p className="text-lg md:text-xl text-gray-400 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
-                        Experience spatial web interactions that elevate your digital presence.
-                        We build immersive, high-performance web experiences.
-                    </p>
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pointer-events-auto">
                         <button className="px-8 py-4 rounded-full bg-white text-black font-semibold hover:scale-105 transition-transform flex items-center gap-2">
