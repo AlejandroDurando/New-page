@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 export default function About() {
     return (
-        <section id="about" className="py-24 px-6 relative z-10 bg-black overflow-hidden">
+        <section id="about" className="py-24 px-6 relative z-10 bg-black/70 backdrop-blur-lg overflow-hidden">
             {/* Background Glow */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-indigo-500/10 rounded-full blur-[120px] pointer-events-none" />
 

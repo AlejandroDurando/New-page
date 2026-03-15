@@ -26,7 +26,7 @@ const features = [
 
 export default function Features() {
     return (
-        <section id="features" className="py-32 px-6 relative z-10 bg-black">
+        <section id="features" className="py-32 px-6 relative z-10 bg-black/60 backdrop-blur-md">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-20">
                     <motion.h2
