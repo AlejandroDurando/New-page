@@ -1,8 +1,5 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Features from './components/Features';
-import About from './components/About';
-import Footer from './components/Footer';
 import Spline from '@splinetool/react-spline';
 
 function App() {
@@ -17,9 +14,6 @@ function App() {
             <div className="relative z-10 w-full">
                 <Navbar />
                 <Hero />
-                <Features />
-                <About />
-                <Footer />
             </div>
         </main>
     );
